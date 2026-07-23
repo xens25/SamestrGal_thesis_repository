@@ -1,0 +1,12 @@
+input_dir: "/path/to/samestr_flow/input_data"
+output_dir: "/path/to/samestr_flow/results"
+mp4_db: "/path/to/samestr_flow/db"
+samestr_db: "/path/to/samestr_flow/db/SameStr_mpa_vJan25_CHOCOPhlAnSGB_202503"
+samestr_marker_db: "/path/to/samestr_flow/db/SameStr_mpa_vJan25_CHOCOPhlAnSGB_202503"
+outdir: "./results"
+merge_pairs: false
+keep_orphans: true
+run_samestr: true
+input_dir_structure: "tree"
+remove_host: "kraken2"
+remove_host_kraken2_db: "/path/to/samestr_flow/db/k2_Human_20230629"
