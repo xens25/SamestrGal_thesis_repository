@@ -74,7 +74,7 @@ https://github.com/danielpodlesny/fmt_rcdi
 
    Besides the data obtained from the results, an analysis level, a source and an event need to be added. The exact conditions that were used in the taxonomic graphic in SameStr were not stated. Based on all samples that were analysed, this is the logic that was abstracted from it:
 
-    ![Strain Events](images/strain_events.png)
+   ![Strain Events](images/strain_events.png)
 
    The nodes represent all possible events that can be added to a row based on certain conditions. For those events in green, the source is donor. For those in blue, the source is self. For those in yellow, the source is unique. For those in purple the source is both. There are also two events without a colour, those are source same_species, but the script doesn't take them into account when creating the figure. The analysis level can also be determined by the colours in the image.   
 
