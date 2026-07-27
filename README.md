@@ -42,7 +42,7 @@ in SamestrGal. From here, the amount of taxa detected by the workflow at each ta
 
 The Excel files containing the comparison of both workflows' results can be found in the following link:
 
-xxx
+https://doi.org/10.5281/zenodo.21630816
 
 # Reproducing the Taxonomic Graphic from the SameStr publication
 
