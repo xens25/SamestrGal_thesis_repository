@@ -94,4 +94,4 @@ Besides the data obtained from the results, an analysis level, a source and an e
 
 The exact rows added for the rCDI cases with the data from SamestrGal used in the thesis to generate the plot can be found in the following link:
 
-https://doi.org/10.5281/zenodo.21638741
+https://doi.org/10.5281/zenodo.21642582
