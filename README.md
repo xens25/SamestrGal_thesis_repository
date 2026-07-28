@@ -71,9 +71,9 @@ https://github.com/danielpodlesny/fmt_rcdi
        - Donor/Post-FMT: for overlap and MVS score values between the Donor and the patient after treatment (Post-FMT).
 
 
-| Study_Type | Study | Case_Name | Sample.recipient | Sample.post | Sample.donor | Days_Since_FMT.post | fmt_success | fmt_success.label | Pre-FMT/Donor.mvs | Pre-FMT/Post-FMT.mvs | Donor/Post-FMT.mvs | rel_abund.recipient | rel_abund.post | rel_abund.donor | event | source | analysis_level | species | n_covered.recipient | n_covered.post | n_covered.donor |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| rCDI | FRICKE | FRICKE_Case_20 | FRICKE_20A.pair | FRICKE_20E.pair | FRICKE_20B.pair | 84 | TRUE | Resolved | 0.993816473 | 0.987993564 | 0.999865852 | 0.023261 | 2.383998 | 3.04135 | engrafted | donor | strain | Agathobacter_rectalis | 8180 | 171969 | 172129 |
+| Study_Type | Study | Case_Name | Sample.recipient | Sample.post | Sample.donor | Days_Since_FMT.post | fmt_success | fmt_success.label | Pre-FMT/Donor.overlap | Pre-FMT/Post-FMT.overlap | Donor/Post-FMT.overlap | Pre-FMT/Donor.mvs | Pre-FMT/Post-FMT.mvs | Donor/Post-FMT.mvs | rel_abund.recipient | rel_abund.post | rel_abund.donor | event | source | analysis_level | species | n_covered.recipient | n_covered.post | n_covered.donor |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| rCDI | FRICKE | FRICKE_Case_20 | FRICKE_20A.pair | FRICKE_20E.pair | FRICKE_20B.pair | 84 | TRUE | Resolved | 8086 | 8079 | 163998 | 0.993816473 | 0.987993564 | 0.999865852 | 0.023261 | 2.383998 | 3.04135 | replaced | donor | strain | Agathobacter_rectalis | 8180 | 171969 | 172129 |
 
    Besides the data obtained from the results, an analysis level, a source and an event need to be added. The exact conditions that were used in the taxonomic graphic in SameStr were not stated. Based on all samples that were analysed, this is the logic that was abstracted from it:
 
